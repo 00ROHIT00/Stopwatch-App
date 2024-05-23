@@ -8,14 +8,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ac8010ba48.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="stopWatch">
         <h1 id="displayTime"><i>00:00:00</i></h1>
         <div class="buttons">
-            <img src="images/stop.png" alt="" onclick="watchStop()">
-            <img src="images/start.png" alt="" onclick="watchStart()">
-            <img src="images/reset.png" alt="" onclick="watchReset()">
+            <i class="fa-solid fa-pause" onclick="watchStop()"></i>
+            <i class="fa-solid fa-play" onclick="watchStart()"></i>
+            <i class="fa-solid fa-arrow-rotate-left" onclick="watchReset()"></i>
+
         </div>
     </div>
 
@@ -24,3 +26,12 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
+<!-- <div class="buttons">
+    <img src="images/stop.png" alt="" onclick="watchStop()">
+    <img src="images/start.png" alt="" onclick="watchStart()">
+    <img src="images/reset.png" alt="" onclick="watchReset()">
+</div> -->
